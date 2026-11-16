@@ -1,0 +1,17 @@
+{
+  "name": "actual-edenred",
+  "version": "1.0.0",
+  "description": "Fetch MyEdenred Portugal transactions in Actual Budget format.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "auth": "node --env-file=.env auth.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dayjs": "^1.11.18"
+  }
+}
